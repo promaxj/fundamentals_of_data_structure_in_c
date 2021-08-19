@@ -39,7 +39,7 @@ void main(void)
 {
     int i, j, n;
     int list[LIST_LEN];
-    printf("range is 0 ~ %d, witch number you want to search?\n", LIST_MAX_NUM);
+    printf("list num range is 0 ~ %d, and list length is %d, witch number you want to search?\n", LIST_MAX_NUM, LIST_LEN);
     scanf("%d", &n);
     if (n < 1) {
         fprintf(stderr, "Improper value of n\n");
